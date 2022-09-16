@@ -14,13 +14,13 @@ for item in y:
     pass
 
 # continue (goes to the top of the closest enclosing loop)
+# break (breaks out of the current closest enclosing loop)
 
 mystring = "Márton"
 
 for letter in mystring:
     if letter == 'á':
-        #continue
-        break
+        # continue 
+        break # így ki is lép a ciklusból teljesen
     print(letter)
 
-# break (breaks out of the current closest enclosing loop)
