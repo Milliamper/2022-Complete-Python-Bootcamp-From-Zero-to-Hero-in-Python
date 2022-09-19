@@ -52,3 +52,4 @@ print(mondat.split('a'))
 # string interpolation
 print("Hello, this string is {}".format("INSERTED"))
 print("The {2} {0} {1}".format("brown", "fox", "big"))
+print("The {b} {br} {f}".format(b="big", br="brown", f="fox"))
